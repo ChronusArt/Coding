@@ -75,13 +75,13 @@ export default function App() {
       <main className="layout">
         <section className="card">
           <div className="card-heading">
-            <h2>My tasks</h2>
+            <h2>My taskszz</h2>
           </div>
           <AddTaskForm onAdd={handleAdd} />
           <TaskStats tasks={tasks} />
           <TaskList tasks={tasks} loading={loading} onToggle={handleToggle} />
           <div className="card-footer">
-            <p className="muted small">Download a copy of your list.</p>
+            <p className="muted small">Downloaded a copy of your list.</p>
             <ExportPanel exporters={exporters} tasks={tasks} onNotify={notify} />
           </div>
         </section>
