@@ -75,7 +75,7 @@ export default function App() {
       <main className="layout">
         <section className="card">
           <div className="card-heading">
-            <h2>My tasks</h2>
+            <h2>My taskszz</h2>
           </div>
           <AddTaskForm onAdd={handleAdd} />
           <TaskStats tasks={tasks} />
